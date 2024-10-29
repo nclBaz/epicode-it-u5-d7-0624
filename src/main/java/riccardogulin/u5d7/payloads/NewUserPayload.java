@@ -9,7 +9,7 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @ToString
-public class NewUserPayload {
+public class NewUserPayload { // Rappresenta il body della richiesta di salvataggio di un nuovo utente
 	private String name;
 	private String surname;
 	private int age;
